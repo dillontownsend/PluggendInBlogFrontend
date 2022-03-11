@@ -109,7 +109,7 @@ const SignUpPage = () => {
                         setfeedBack(feedback)
                     }} />
 
-                    {score>2?
+                    {score>1?
                     <button className="font-poppins p-4 bg-kurt-color text-white border-2 border-kurt-color rounded-md mb-10 hover:bg-gray-200 hover:text-kurt-color" onClick={submitUser}>Sign Up</button>:
                     <button className="font-poppins p-4 bg-gray-400 text-white border-2 border-gray-400 rounded-md mb-10 cursor-not-allowed">Sign Up</button>
                     }
